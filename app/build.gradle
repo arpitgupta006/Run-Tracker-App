@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.androiddevs.runningappyt"
+        applicationId "com.example.runtrackerapp"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

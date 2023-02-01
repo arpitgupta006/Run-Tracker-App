@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt
+package com.example.runtrackerapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
