@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt.fragments
+package com.androiddevs.runtrackerapp.fragments
 
 import android.Manifest
 import android.os.Build
@@ -7,9 +7,9 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.androiddevs.runningappyt.utils.Constants.REQUEST_CODE_LOCATION_PERMISSION
-import com.androiddevs.runningappyt.utils.TrackingUtility
-import com.androiddevs.runningappyt.viewmodels.MainViewModel
+import com.androiddevs.runtrackerapp.utils.Constants.REQUEST_CODE_LOCATION_PERMISSION
+import com.androiddevs.runtrackerapp.utils.TrackingUtility
+import com.androiddevs.runtrackerapp.viewmodels.MainViewModel
 import com.example.runtrackerapp.R
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_run.*

@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt.db
+package com.androiddevs.runtrackerapp.db
 
 import android.graphics.Bitmap
 import androidx.room.Entity

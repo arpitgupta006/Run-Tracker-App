@@ -4,9 +4,13 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/setupFragment">
 
+    <action android:id="@+id/action_global_trackingFragment"
+        app:destination="@id/trackingFragment"
+        app:launchSingleTop="true"/>
+
     <fragment
         android:id="@+id/runFragment"
-        android:name="com.androiddevs.runningappyt.fragments.RunFragment"
+        android:name="com.androiddevs.runtrackerapp.fragments.RunFragment"
         android:label="RunFragment" >
         <action
             android:id="@+id/action_runFragment_to_trackingFragment"
@@ -14,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/trackingFragment"
-        android:name="com.androiddevs.runningappyt.fragments.TrackingFragment"
+        android:name="com.androiddevs.runtrackerapp.fragments.TrackingFragment"
         android:label="TrackingFragment" >
         <action
             android:id="@+id/action_trackingFragment_to_runFragment"
@@ -22,15 +26,15 @@
     </fragment>
     <fragment
         android:id="@+id/statisticsFragment"
-        android:name="com.androiddevs.runningappyt.fragments.StatisticsFragment"
+        android:name="com.androiddevs.runtrackerapp.fragments.StatisticsFragment"
         android:label="StatisticsFragment" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.androiddevs.runningappyt.fragments.SettingsFragment"
+        android:name="com.androiddevs.runtrackerapp.fragments.SettingsFragment"
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/setupFragment"
-        android:name="com.androiddevs.runningappyt.fragments.SetupFragment"
+        android:name="com.androiddevs.runtrackerapp.fragments.SetupFragment"
         android:label="SetupFragment" >
         <action
             android:id="@+id/action_setupFragment_to_runFragment"

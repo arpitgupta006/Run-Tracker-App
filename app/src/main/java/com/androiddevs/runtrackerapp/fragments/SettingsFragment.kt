@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt.fragments
+package com.androiddevs.runtrackerapp.fragments
 
 import androidx.fragment.app.Fragment
 import com.example.runtrackerapp.R

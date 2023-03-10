@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt.db
+package com.androiddevs.runtrackerapp.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

@@ -1,9 +1,9 @@
-package com.androiddevs.runningappyt.di
+package com.androiddevs.runtrackerapp.di
 
 import android.content.Context
 import androidx.room.Room
-import com.androiddevs.runningappyt.utils.Constants.RUNNING_DATABASE_NAME
-import com.androiddevs.runningappyt.db.RunningDatabase
+import com.androiddevs.runtrackerapp.utils.Constants.RUNNING_DATABASE_NAME
+import com.androiddevs.runtrackerapp.db.RunningDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

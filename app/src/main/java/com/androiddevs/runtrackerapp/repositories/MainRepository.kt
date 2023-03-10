@@ -1,7 +1,7 @@
-package com.androiddevs.runningappyt.repositories
+package com.androiddevs.runtrackerapp.repositories
 
-import com.androiddevs.runningappyt.db.Run
-import com.androiddevs.runningappyt.db.RunDAO
+import com.androiddevs.runtrackerapp.db.Run
+import com.androiddevs.runtrackerapp.db.RunDAO
 import javax.inject.Inject
 
 class MainRepository @Inject constructor(
